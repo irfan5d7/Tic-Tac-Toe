@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>TicTacToe</title>
+      <link rel="stylesheet" type="text/css" href="Css/tic-tac-toe.css">
+	<script type="text/javascript" src="Js/tic-tac-toe.js"></script>
+</head>
+<body>
+<h1 style="text-align:center;">Lets Play</h1>
+<br>
+<br>
+<table align="center" border="2">
+    <tr>
+        <td><button id=1 type="button" onclick="press(1)">Press</button></td>
+        <td><button id=2 type="button" onclick="press(2)">Press</button></td>
+        <td><button id=3 type="button" onclick="press(3)">Press</button></td>
+    </tr>
+    <tr>
+        <td><button id=4 type="button" onclick="press(4)">Press</button></td>
+        <td><button id=5 type="button" onclick="press(5)">Press</button></td>
+        <td><button id=6 type="button" onclick="press(6)">Press</button></td>
+    </tr>
+    <tr>
+        <td><button id=7 type="button" onclick="press(7)">Press</button></td>
+        <td><button id=8 type="button" onclick="press(8)">Press</button></td>
+        <td><button id=9 type="button" onclick="press(9)">Press</button></td>
+    </tr>
+</table>
+<br/>
+<center><button value ="Undo Move" style="height: 70px;width: 130px ;background-color: grey" onclick="undo()">Undo Move</button>
+<button value ="Undo Move" style="height: 70px;width: 130px ;background-color: grey" onclick="redo()">Redo Move</button></center>
+<br/><br/><br/>
+<h2 id="turn" style="text-align:center">Player X</h2>
+</body>
+</html>
